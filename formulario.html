@@ -14,9 +14,22 @@
         <input type="password" name="clave" id="clave"><br>
         <p>Sexo:</p>
         <label for="masculino">Masculino</label>
-        <input type="radio" name="sexo" id="masculino" value="m">
+        <input type="radio" name="sexo" id="masculino"  value="m">
         <label for="femenino">Femenino</label>
-        <input type="radio" name="sexo" id="femenino" value="f"><br>
+        <input type="radio" name="sexo" id="femenino" checked value="f"><br>
+        <p>Servicios públicos que posee:</p>
+        <label for="agua">Agua potable:</label>
+        <input type="checkbox" name="agua" id="agua" value="agua"><br>
+        <label for="luz">Luz eléctrica:</label>
+        <input type="checkbox" name="luz" checked id="luz" value="luz"><br>
+        <label for="telefono">Teléfono:</label>
+        <input type="checkbox" name="telefono" id="telefono" value="telefono"><br>
+        <label for="foto">Foto de perfil:</label>
+        <input type="file" name="foto" id="foto"><br>
+        <label for="edad">Edad:</label>
+        <input type="number" name="edad" id="edad" min="0" max="120" step="1"><br>
+        <label for="fecha">Fecha de nacimiento:</label>
+        <input type="date" name="fecha" id="fecha"><br>
         <input type="submit" value="Guardar">
         <input type="reset" value="Cancelar">
         <input type="button" value="Botón">
