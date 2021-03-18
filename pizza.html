@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h2>Pedido de pizza</h2>
+    <form>
+        <fieldset>
+            <legend>La Pizza</legend>
+            <p>Ingredientes</p>
+            <input type="checkbox" name="queso" id="queso">
+            <label for="queso">Queso</label><br>
+            <input type="checkbox" name="pimiento" id="pimiento">
+            <label for="pimiento">Pimiento</label><br>
+            <input type="checkbox" name="cebolla" id="cebolla">
+            <label for="cebolla">Cebolla</label><br>
+            <p>Tamaño</p>
+            <input type="radio" name="size" id="little">
+            <label for="little">Pequeña</label><br>
+            <input type="radio" name="size" id="medium">
+            <label for="medium">Mediana</label><br>
+            <input type="radio" name="size" id="big">
+            <label for="big">Grande</label><br>
+        </fieldset>
+        <fieldset>
+            <legend>Datos de entrega</legend>
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre" id="nombre"><br>
+            <label for="direccion">Direccion:</label>
+            <input type="text" name="direccion" id="direccion"><br>
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" name="telefono" id="telefono"><br>
+            <label for="instrucciones">Instrucciones especiales</label><br>
+            <textarea name="instrucciones" id="instrucciones" rows="10" cols="25"></textarea>
+        </fieldset>
+        <fieldset>
+            <legend>Método de pago</legend>
+            <select name="metodo">
+                <option value="efectivo">Efectivo</option>
+                <option value="credito">Crédito</option>
+            </select>
+        </fieldset>
+        <button type="submit">Ok</button>
+    </form>
+</body>
+</html>
